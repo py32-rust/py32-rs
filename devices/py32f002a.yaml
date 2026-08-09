@@ -7,10 +7,12 @@ _svd: ../svd/py32f002a.svd
 "USART*":
   _include:
     - common_patches/usart_dr8.yaml
+    - common_patches/usart_cr2_stop_ln.yaml
 
 TIM1:
   _include:
     - common_patches/timer_ccr_reg_array.yaml
+    - common_patches/usart_cr2_stop_ln.yaml
 
 _include:
  - ./common_patches/pwr_f002a.yaml

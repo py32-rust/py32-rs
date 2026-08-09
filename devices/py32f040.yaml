@@ -8,6 +8,7 @@ _svd: ../svd/py32f040.svd
   _include:
     - common_patches/usart_dr8.yaml
     - common_patches/usart_f040_rename.yaml
+    - common_patches/usart_cr2_stop_ln040.yaml
 
 "DMA, DMA[12]":
   _include:

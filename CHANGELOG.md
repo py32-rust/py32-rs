@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.2 2026-08-09
+
+### Changed
+
+ - Modified USART peripheral register `CR2` to restrict `STOP` field in all devices to be 1 bit instead of 2 (resolves github issue #11)
+
 ## v0.2.1 2025-01-28
 
 ### Added

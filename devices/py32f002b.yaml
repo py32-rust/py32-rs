@@ -8,6 +8,7 @@ _svd: ../svd/py32f002b.svd
 "USART*":
   _include:
     - common_patches/usart_dr8.yaml
+    - common_patches/usart_cr2_stop_ln.yaml
 
 "DBG":
   _include:

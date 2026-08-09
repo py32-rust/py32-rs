@@ -1,0 +1,4 @@
+CR2:
+  _modify:
+    STOP:
+      bitRange: "[12:12]"

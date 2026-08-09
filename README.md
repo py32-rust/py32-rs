@@ -26,7 +26,7 @@ make any guarantee of correctness. Please report any bugs you find!
 In your own project's `Cargo.toml`:
 ```toml
 [dependencies.py32f0]
-version = "0.2.1"
+version = "0.2.2"
 features = ["py32f030"]
 ```
 
